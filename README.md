@@ -1,7 +1,7 @@
 # PosixThreadpoolexampleForGithub
 Simple Threadpool framework using posix thread, mutex and conditional variable.
 
-1.This threadpool framework is created using posixthread curretly
+1.This threadpool framework is created using posixthread currently
 created 4 worker thread(Hardcode in Threadpool_main.cpp) ypu can increase it as per your requirement.
 2.Main thread add data into queue and notify worker thread so one of worker thread wake up and process data.
 3.Finally Denit is called to deallocate and all the resources.

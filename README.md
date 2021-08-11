@@ -21,7 +21,7 @@ Step2:
 Call Init method of cEventThreadlPool this class
 i/p
 a) Number of worker thread you want to create
-b) Pass address of function that you want to call once data added in queue.
+b) Pass address of function that you want to call by worker thread.
 
 Step3:
   Call Deinit of cEventThreadlPool class.
